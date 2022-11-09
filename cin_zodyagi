@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+
+public class cinzodyagiburcu {
+    public static void main(String[] args) {
+        int dogumYili;
+        int kalan;
+
+        Scanner inp = new Scanner(System.in);
+        System.out.print("Doğum yılınızı giriniz: ");
+        dogumYili = inp.nextInt();
+
+        kalan = dogumYili % 12;
+
+        if (kalan == 0) {
+            System.out.println("Çin zodyağı burcu : Maymun ");
+        }
+        if (kalan == 1) {
+            System.out.println("Çin zodyağı burcu : Horoz ");
+        }
+        if (kalan == 2) {
+            System.out.println("Çin zodyağı burcu : Köpek ");
+        }
+        if (kalan == 3) {
+            System.out.println("Çin zodyağı burcu : Domuz ");
+        }
+        if (kalan == 4) {
+            System.out.println("Çin zodyağı burcu : Fare ");
+        }
+        if (kalan == 5) {
+            System.out.println("Çin zodyağı burcu : Öküz ");
+        }
+        if (kalan == 6) {
+            System.out.println("Çin zodyağı burcu : Kaplan ");
+        }
+        if (kalan == 7) {
+            System.out.println("Çin zodyağı burcu : Tavşan ");
+        }
+        if (kalan == 8) {
+            System.out.println("Çin zodyağı burcu : Ejderha ");
+        }
+        if (kalan == 9) {
+            System.out.println("Çin zodyağı burcu : Yılan ");
+        }
+        if (kalan == 10) {
+            System.out.println("Çin zodyağı burcu : At ");
+        }
+        if (kalan == 11) {
+            System.out.println("Çin zodyağı burcu : Koyun ");
+
+
+        }
+    }
+}
